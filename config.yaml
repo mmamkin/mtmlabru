@@ -1,0 +1,41 @@
+baseURL: "https://mtmlab.ru/"
+defaultContentLanguage: ru
+title: "mtmlab.ru"
+theme: "hugo-xmin"
+
+languages:
+  en:
+    menu:
+      main:
+      - name: Home
+        url: ""
+        weight: 1
+      - name: News
+        url: "news/"
+        weight: 2
+      - name: Soft
+        url: "soft/"
+        weight: 3
+      - name: Downloads
+        url: "download/"
+        weight: 4
+      - name: Links
+        url: "links/"
+  ru:
+    menu:
+      main:
+      - name: Главная
+        url: ""
+        weight: 1
+      - name: Новости
+        url: "news/"
+        weight: 2
+      - name: Софт
+        url: "soft/"
+        weight: 3
+      - name: Скачать
+        url: "download/"
+        weight: 4
+      - name: Ссылки
+        url: "links/"
+
